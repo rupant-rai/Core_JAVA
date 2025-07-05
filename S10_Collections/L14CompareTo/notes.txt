@@ -1,0 +1,10 @@
+Using compareTo method we will be going to comapre two parts.
+eg: int result= countries.get(0).compareTo('a);
+                --------------- ---------------
+                part 1              part 2
+
+now if part1 = part 2: rresult = 0;
+if part 1 > part 2; result = +ve value;
+if part 1 < part 2; result = -ve value;
+
+it actually compares the difference between the objects and give the desired ouput

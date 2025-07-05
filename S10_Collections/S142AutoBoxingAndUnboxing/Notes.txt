@@ -1,0 +1,60 @@
+Wrapper classs: In Java, a wrapper class is an object representation of a primitive data type.
+
+✅ Java Wrapper Classes:
+Primitive	Wrapper Class
+int	    Integer
+char	Character
+byte	Byte
+short	Short
+long	Long
+float	Float
+double	Double
+boolean	Boolean
+
+✅ Purpose:
+Used with Collections (e.g., ArrayList<Integer>)
+
+Supports autoboxing and unboxing
+
+Allows use of methods on primitive values
+
+------------------------------------------------------------
+Autoboxing and unboxing are features in Java that help automatically convert between primitive types (like int, double, char) and their corresponding wrapper classes (Integer, Double, Character, etc.).
+🔄 Autoboxing
+Autoboxing is the automatic conversion of a primitive type into its corresponding wrapper object.
+
+Example:
+
+java
+Copy
+Edit
+int num = 5;
+Integer obj = num;  // Autoboxing: int → Integer
+This is equivalent to:
+
+java
+Copy
+Edit
+Integer obj = Integer.valueOf(num);
+
+
+🔄 Unboxing
+Unboxing is the automatic conversion of a wrapper object back into its corresponding primitive type.
+
+Example:
+
+java
+Copy
+Edit
+Integer obj = new Integer(10);
+int num = obj;  // Unboxing: Integer → int
+This is equivalent to:
+
+java
+Copy
+Edit
+int num = obj.intValue();
+
+------------------------------------------------------------
+
+
